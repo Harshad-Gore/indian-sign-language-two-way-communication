@@ -1,0 +1,11 @@
+{
+  "best_model": "hybrid",
+  "best_val_acc": 0.967032967032967,
+  "best_top3": 0.9725274725274725,
+  "best_top5": 0.9725274725274725,
+  "best_macro_f1": 0.9572769953051643,
+  "best_epoch": 58,
+  "num_models": 5,
+  "num_classes": 71,
+  "total_videos": 1120
+}

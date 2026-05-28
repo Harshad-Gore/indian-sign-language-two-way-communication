@@ -1,0 +1,3 @@
+"""
+recognition module initialization
+"""

@@ -1,0 +1,387 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1744" viewBox="0 0 1440 1744" role="img" aria-labelledby="title desc">
+<title id="title">ISL benchmark report asset</title>
+<desc id="desc">SVG report asset generated from the saved benchmark metrics and training histories.</desc>
+<defs><linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#07101d"/><stop offset="60%" stop-color="#0b1324"/><stop offset="100%" stop-color="#081726"/></linearGradient><linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#22d3ee"/><stop offset="55%" stop-color="#6366f1"/><stop offset="100%" stop-color="#a855f7"/></linearGradient><linearGradient id="good" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#4ade80"/><stop offset="100%" stop-color="#22c55e"/></linearGradient><linearGradient id="warn" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#fbbf24"/><stop offset="100%" stop-color="#f97316"/></linearGradient></defs>
+<rect x="0.0" y="0.0" width="1440.0" height="1744.0" rx="0.0" fill="url(#bg)" stroke="none" stroke-width="1.0" opacity="1.000" />
+<circle cx="115.2" cy="279.0" r="150.0" fill="#22d3ee" stroke="none" stroke-width="1.0" opacity="0.100" />
+<circle cx="1324.8" cy="244.2" r="180.0" fill="#6366f1" stroke="none" stroke-width="1.0" opacity="0.120" />
+<circle cx="1123.2" cy="1604.5" r="240.0" fill="#a855f7" stroke="none" stroke-width="1.0" opacity="0.080" />
+<text x="72.0" y="68.0" fill="#f8fbff" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="40.0" font-weight="900" text-anchor="start" opacity="1.000" >Per-class F1 distribution</text>
+<text x="72.0" y="96.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="15.0" font-weight="400" text-anchor="start" opacity="0.950" >Sorted ascending so the weakest classes are easiest to spot. Support counts come from the validation subset.</text>
+<rect x="1140.0" y="38.0" width="96.0" height="92.0" rx="22.0" fill="#0b1630" stroke="#1e3358" stroke-width="1.2" opacity="0.920" />
+<rect x="1140.0" y="38.0" width="8.0" height="92.0" rx="4.0" fill="url(#accent)" stroke="none" stroke-width="1.0" opacity="0.980" />
+<text x="1160.0" y="66.0" fill="#a9bdd9" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="700" text-anchor="start" opacity="1.000" >Classes</text>
+<text x="1160.0" y="100.0" fill="#f8fbff" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="24.0" font-weight="900" text-anchor="start" opacity="1.000" >71</text>
+<rect x="1246.0" y="38.0" width="132.0" height="92.0" rx="22.0" fill="#0b1630" stroke="#1e3358" stroke-width="1.2" opacity="0.920" />
+<rect x="1246.0" y="38.0" width="8.0" height="92.0" rx="4.0" fill="url(#good)" stroke="none" stroke-width="1.0" opacity="0.980" />
+<text x="1266.0" y="66.0" fill="#a9bdd9" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="700" text-anchor="start" opacity="1.000" >Avg support</text>
+<text x="1266.0" y="100.0" fill="#f8fbff" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="24.0" font-weight="900" text-anchor="start" opacity="1.000" >15.77</text>
+<rect x="88.0" y="148.0" width="1264.0" height="1586.0" rx="22.0" fill="#07101e" stroke="#1b2f50" stroke-width="1.2" opacity="0.950" />
+<text x="48.0" y="132.0" fill="#8ea3bf" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="700" text-anchor="start" opacity="1.000" >Class</text>
+<text x="360.0" y="132.0" fill="#8ea3bf" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="700" text-anchor="start" opacity="1.000" >Support</text>
+<text x="410.0" y="132.0" fill="#8ea3bf" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="700" text-anchor="start" opacity="1.000" >F1 score</text>
+<line x1="625.0" y1="156.0" x2="625.0" y2="1722.0" stroke="#1f3355" stroke-width="1.0" opacity="0.850" />
+<text x="625.0" y="152.0" fill="#8ea3bf" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="middle" opacity="1.000" >0.25</text>
+<line x1="840.0" y1="156.0" x2="840.0" y2="1722.0" stroke="#1f3355" stroke-width="1.0" opacity="0.850" />
+<text x="840.0" y="152.0" fill="#8ea3bf" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="middle" opacity="1.000" >0.50</text>
+<line x1="1055.0" y1="156.0" x2="1055.0" y2="1722.0" stroke="#1f3355" stroke-width="1.0" opacity="0.850" />
+<text x="1055.0" y="152.0" fill="#8ea3bf" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="middle" opacity="1.000" >0.75</text>
+<line x1="1270.0" y1="156.0" x2="1270.0" y2="1722.0" stroke="#1f3355" stroke-width="1.0" opacity="0.850" />
+<text x="1270.0" y="152.0" fill="#8ea3bf" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="middle" opacity="1.000" >1.00</text>
+<text x="48.0" y="179.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Lock</text>
+<text x="360.0" y="179.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=2</text>
+<rect x="410.0" y="167.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="167.0" width="430.0" height="14.0" rx="7.0" fill="#ef4444" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="850.0" y="179.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >50.00%</text>
+<text x="48.0" y="201.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Bathroom</text>
+<text x="360.0" y="201.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=2</text>
+<rect x="410.0" y="189.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="189.0" width="573.3" height="14.0" rx="7.0" fill="#f59e0b" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="993.3" y="201.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >66.67%</text>
+<text x="48.0" y="223.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Paper</text>
+<text x="360.0" y="223.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=2</text>
+<rect x="410.0" y="211.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="211.0" width="573.3" height="14.0" rx="7.0" fill="#f59e0b" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="993.3" y="223.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >66.67%</text>
+<text x="48.0" y="245.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Ring</text>
+<text x="360.0" y="245.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=2</text>
+<rect x="410.0" y="233.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="233.0" width="573.3" height="14.0" rx="7.0" fill="#f59e0b" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="993.3" y="245.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >66.67%</text>
+<text x="48.0" y="267.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Tool</text>
+<text x="360.0" y="267.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=2</text>
+<rect x="410.0" y="255.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="255.0" width="573.3" height="14.0" rx="7.0" fill="#f59e0b" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="993.3" y="267.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >66.67%</text>
+<text x="48.0" y="289.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Sunday</text>
+<text x="360.0" y="289.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=2</text>
+<rect x="410.0" y="277.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="277.0" width="688.0" height="14.0" rx="7.0" fill="#84cc16" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1108.0" y="289.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >80.00%</text>
+<text x="48.0" y="311.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Pencil</text>
+<text x="360.0" y="311.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=2</text>
+<rect x="410.0" y="299.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="299.0" width="688.0" height="14.0" rx="7.0" fill="#84cc16" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1108.0" y="311.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >80.00%</text>
+<text x="48.0" y="333.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Paint</text>
+<text x="360.0" y="333.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=3</text>
+<rect x="410.0" y="321.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="321.0" width="688.0" height="14.0" rx="7.0" fill="#84cc16" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1108.0" y="333.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >80.00%</text>
+<text x="48.0" y="355.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Letter</text>
+<text x="360.0" y="355.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=2</text>
+<rect x="410.0" y="343.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="343.0" width="688.0" height="14.0" rx="7.0" fill="#84cc16" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1108.0" y="355.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >80.00%</text>
+<text x="48.0" y="377.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Telephone</text>
+<text x="360.0" y="377.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=2</text>
+<rect x="410.0" y="365.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="365.0" width="688.0" height="14.0" rx="7.0" fill="#84cc16" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1108.0" y="377.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >80.00%</text>
+<text x="48.0" y="399.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Card</text>
+<text x="360.0" y="399.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=2</text>
+<rect x="410.0" y="387.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="387.0" width="688.0" height="14.0" rx="7.0" fill="#84cc16" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1108.0" y="399.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >80.00%</text>
+<text x="48.0" y="421.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Monday</text>
+<text x="360.0" y="421.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=2</text>
+<rect x="410.0" y="409.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="409.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="421.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="443.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Tuesday</text>
+<text x="360.0" y="443.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=2</text>
+<rect x="410.0" y="431.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="431.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="443.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="465.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Wednesday</text>
+<text x="360.0" y="465.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=2</text>
+<rect x="410.0" y="453.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="453.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="465.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="487.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Thursday</text>
+<text x="360.0" y="487.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=2</text>
+<rect x="410.0" y="475.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="475.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="487.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="509.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Friday</text>
+<text x="360.0" y="509.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=2</text>
+<rect x="410.0" y="497.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="497.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="509.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="531.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Saturday</text>
+<text x="360.0" y="531.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=2</text>
+<rect x="410.0" y="519.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="519.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="531.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="553.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Today</text>
+<text x="360.0" y="553.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=2</text>
+<rect x="410.0" y="541.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="541.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="553.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="575.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Tomorrow</text>
+<text x="360.0" y="575.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=2</text>
+<rect x="410.0" y="563.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="563.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="575.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="597.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Yesterday</text>
+<text x="360.0" y="597.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=2</text>
+<rect x="410.0" y="585.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="585.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="597.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="619.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Week</text>
+<text x="360.0" y="619.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=2</text>
+<rect x="410.0" y="607.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="607.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="619.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="641.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Month</text>
+<text x="360.0" y="641.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=2</text>
+<rect x="410.0" y="629.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="629.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="641.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="663.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Year</text>
+<text x="360.0" y="663.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=3</text>
+<rect x="410.0" y="651.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="651.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="663.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="685.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Hour</text>
+<text x="360.0" y="685.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=2</text>
+<rect x="410.0" y="673.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="673.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="685.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="707.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Minute</text>
+<text x="360.0" y="707.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=2</text>
+<rect x="410.0" y="695.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="695.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="707.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="729.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Second</text>
+<text x="360.0" y="729.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=3</text>
+<rect x="410.0" y="717.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="717.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="729.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="751.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Morning</text>
+<text x="360.0" y="751.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=2</text>
+<rect x="410.0" y="739.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="739.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="751.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="773.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Afternoon</text>
+<text x="360.0" y="773.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=2</text>
+<rect x="410.0" y="761.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="761.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="773.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="795.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Evening</text>
+<text x="360.0" y="795.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=2</text>
+<rect x="410.0" y="783.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="783.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="795.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="817.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Night</text>
+<text x="360.0" y="817.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=3</text>
+<rect x="410.0" y="805.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="805.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="817.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="839.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Time</text>
+<text x="360.0" y="839.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=3</text>
+<rect x="410.0" y="827.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="827.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="839.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="861.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Hello</text>
+<text x="360.0" y="861.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=4</text>
+<rect x="410.0" y="849.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="849.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="861.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="883.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >How are you</text>
+<text x="360.0" y="883.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=4</text>
+<rect x="410.0" y="871.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="871.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="883.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="905.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Alright</text>
+<text x="360.0" y="905.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=4</text>
+<rect x="410.0" y="893.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="893.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="905.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="927.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Good Morning</text>
+<text x="360.0" y="927.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=4</text>
+<rect x="410.0" y="915.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="915.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="927.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="949.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Good afternoon</text>
+<text x="360.0" y="949.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=4</text>
+<rect x="410.0" y="937.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="937.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="949.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="971.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Good evening</text>
+<text x="360.0" y="971.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=4</text>
+<rect x="410.0" y="959.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="959.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="971.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="993.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Good night</text>
+<text x="360.0" y="993.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=4</text>
+<rect x="410.0" y="981.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="981.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="993.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="1015.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Thank you</text>
+<text x="360.0" y="1015.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=4</text>
+<rect x="410.0" y="1003.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="1003.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="1015.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="1037.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Pleased</text>
+<text x="360.0" y="1037.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=4</text>
+<rect x="410.0" y="1025.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="1025.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="1037.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="1059.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Table</text>
+<text x="360.0" y="1059.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=2</text>
+<rect x="410.0" y="1047.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="1047.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="1059.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="1081.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Chair</text>
+<text x="360.0" y="1081.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=2</text>
+<rect x="410.0" y="1069.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="1069.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="1081.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="1103.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Bed</text>
+<text x="360.0" y="1103.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=2</text>
+<rect x="410.0" y="1091.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="1091.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="1103.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="1125.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Dream</text>
+<text x="360.0" y="1125.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=2</text>
+<rect x="410.0" y="1113.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="1113.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="1125.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="1147.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Window</text>
+<text x="360.0" y="1147.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=2</text>
+<rect x="410.0" y="1135.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="1135.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="1147.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="1169.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Door</text>
+<text x="360.0" y="1169.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=2</text>
+<rect x="410.0" y="1157.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="1157.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="1169.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="1191.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Bedroom</text>
+<text x="360.0" y="1191.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=2</text>
+<rect x="410.0" y="1179.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="1179.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="1191.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="1213.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Kitchen</text>
+<text x="360.0" y="1213.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=2</text>
+<rect x="410.0" y="1201.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="1201.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="1213.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="1235.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Pen</text>
+<text x="360.0" y="1235.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=2</text>
+<rect x="410.0" y="1223.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="1223.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="1235.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="1257.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Photograph</text>
+<text x="360.0" y="1257.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=2</text>
+<rect x="410.0" y="1245.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="1245.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="1257.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="1279.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Soap</text>
+<text x="360.0" y="1279.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=2</text>
+<rect x="410.0" y="1267.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="1267.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="1279.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="1301.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Book</text>
+<text x="360.0" y="1301.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=2</text>
+<rect x="410.0" y="1289.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="1289.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="1301.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="1323.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Page</text>
+<text x="360.0" y="1323.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=2</text>
+<rect x="410.0" y="1311.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="1311.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="1323.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="1345.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Key</text>
+<text x="360.0" y="1345.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=2</text>
+<rect x="410.0" y="1333.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="1333.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="1345.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="1367.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Bag</text>
+<text x="360.0" y="1367.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=2</text>
+<rect x="410.0" y="1355.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="1355.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="1367.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="1389.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Box</text>
+<text x="360.0" y="1389.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=2</text>
+<rect x="410.0" y="1377.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="1377.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="1389.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="1411.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Gift</text>
+<text x="360.0" y="1411.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=2</text>
+<rect x="410.0" y="1399.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="1399.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="1411.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="1433.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >I</text>
+<text x="360.0" y="1433.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=4</text>
+<rect x="410.0" y="1421.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="1421.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="1433.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="1455.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >you</text>
+<text x="360.0" y="1455.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=4</text>
+<rect x="410.0" y="1443.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="1443.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="1455.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="1477.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >he</text>
+<text x="360.0" y="1477.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=4</text>
+<rect x="410.0" y="1465.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="1465.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="1477.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="1499.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >she</text>
+<text x="360.0" y="1499.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=4</text>
+<rect x="410.0" y="1487.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="1487.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="1499.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="1521.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >it</text>
+<text x="360.0" y="1521.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=4</text>
+<rect x="410.0" y="1509.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="1509.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="1521.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="1543.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >we</text>
+<text x="360.0" y="1543.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=4</text>
+<rect x="410.0" y="1531.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="1531.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="1543.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="1565.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >you (plural)</text>
+<text x="360.0" y="1565.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=4</text>
+<rect x="410.0" y="1553.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="1553.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="1565.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="1587.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >they</text>
+<text x="360.0" y="1587.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=4</text>
+<rect x="410.0" y="1575.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="1575.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="1587.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="1609.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Summer</text>
+<text x="360.0" y="1609.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=2</text>
+<rect x="410.0" y="1597.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="1597.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="1609.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="1631.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Spring</text>
+<text x="360.0" y="1631.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=2</text>
+<rect x="410.0" y="1619.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="1619.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="1631.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="1653.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Winter</text>
+<text x="360.0" y="1653.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=2</text>
+<rect x="410.0" y="1641.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="1641.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="1653.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="1675.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Fall</text>
+<text x="360.0" y="1675.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=3</text>
+<rect x="410.0" y="1663.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="1663.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="1675.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="1697.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Season</text>
+<text x="360.0" y="1697.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=2</text>
+<rect x="410.0" y="1685.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="1685.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="1697.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="48.0" y="1719.0" fill="#e3ecfa" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >Monsoon</text>
+<text x="360.0" y="1719.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="start" opacity="1.000" >n=2</text>
+<rect x="410.0" y="1707.0" width="860.0" height="14.0" rx="7.0" fill="#11213a" stroke="#22395f" stroke-width="0.8" opacity="0.950" />
+<rect x="410.0" y="1707.0" width="860.0" height="14.0" rx="7.0" fill="#22c55e" stroke="none" stroke-width="1.0" opacity="0.950" />
+<text x="1280.0" y="1719.0" fill="#cfe0f2" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="start" opacity="1.000" >100.00%</text>
+<text x="88.0" y="1726.0" fill="#8fa6c7" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="13.0" font-weight="400" text-anchor="start" opacity="1.000" >Weakest class: Lock (50.00%) | Strongest class: Monsoon (100.00%)</text>
+</svg>

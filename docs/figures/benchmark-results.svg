@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="840" viewBox="0 0 1440 840" role="img" aria-labelledby="title desc">
+<title id="title">ISL benchmark report asset</title>
+<desc id="desc">SVG report asset generated from the saved benchmark metrics and training histories.</desc>
+<defs><linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#07101d"/><stop offset="60%" stop-color="#0b1324"/><stop offset="100%" stop-color="#081726"/></linearGradient><linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#22d3ee"/><stop offset="55%" stop-color="#6366f1"/><stop offset="100%" stop-color="#a855f7"/></linearGradient><linearGradient id="good" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#4ade80"/><stop offset="100%" stop-color="#22c55e"/></linearGradient><linearGradient id="warn" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#fbbf24"/><stop offset="100%" stop-color="#f97316"/></linearGradient></defs>
+<rect x="0.0" y="0.0" width="1440.0" height="840.0" rx="0.0" fill="url(#bg)" stroke="none" stroke-width="1.0" opacity="1.000" />
+<circle cx="115.2" cy="134.4" r="150.0" fill="#22d3ee" stroke="none" stroke-width="1.0" opacity="0.100" />
+<circle cx="1324.8" cy="117.6" r="180.0" fill="#6366f1" stroke="none" stroke-width="1.0" opacity="0.120" />
+<circle cx="1123.2" cy="772.8" r="240.0" fill="#a855f7" stroke="none" stroke-width="1.0" opacity="0.080" />
+<text x="72.0" y="68.0" fill="#f8fbff" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="40.0" font-weight="900" text-anchor="start" opacity="1.000" >ISL Recognition Benchmark</text>
+<text x="72.0" y="96.0" fill="#9fb2d0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="15.0" font-weight="400" text-anchor="start" opacity="0.950" >Five-model sweep on 1,120 landmark videos across 71 classes, with augmentation and CPU/GPU auto selection.</text>
+<rect x="980.0" y="38.0" width="168.0" height="92.0" rx="22.0" fill="#0b1630" stroke="#1e3358" stroke-width="1.2" opacity="0.920" />
+<rect x="980.0" y="38.0" width="8.0" height="92.0" rx="4.0" fill="url(#accent)" stroke="none" stroke-width="1.0" opacity="0.980" />
+<text x="1000.0" y="66.0" fill="#a9bdd9" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="700" text-anchor="start" opacity="1.000" >Winner</text>
+<text x="1000.0" y="100.0" fill="#f8fbff" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="24.0" font-weight="900" text-anchor="start" opacity="1.000" >Hybrid</text>
+<rect x="1160.0" y="38.0" width="128.0" height="92.0" rx="22.0" fill="#0b1630" stroke="#1e3358" stroke-width="1.2" opacity="0.920" />
+<rect x="1160.0" y="38.0" width="8.0" height="92.0" rx="4.0" fill="url(#good)" stroke="none" stroke-width="1.0" opacity="0.980" />
+<text x="1180.0" y="66.0" fill="#a9bdd9" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="700" text-anchor="start" opacity="1.000" >Best top-1</text>
+<text x="1180.0" y="100.0" fill="#f8fbff" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="24.0" font-weight="900" text-anchor="start" opacity="1.000" >96.70%</text>
+<rect x="1300.0" y="38.0" width="118.0" height="92.0" rx="22.0" fill="#0b1630" stroke="#1e3358" stroke-width="1.2" opacity="0.920" />
+<rect x="1300.0" y="38.0" width="8.0" height="92.0" rx="4.0" fill="url(#warn)" stroke="none" stroke-width="1.0" opacity="0.980" />
+<text x="1320.0" y="66.0" fill="#a9bdd9" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="700" text-anchor="start" opacity="1.000" >Macro-F1</text>
+<text x="1320.0" y="100.0" fill="#f8fbff" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="24.0" font-weight="900" text-anchor="start" opacity="1.000" >95.73%</text>
+<rect x="96.0" y="180.0" width="1260.0" height="500.0" rx="24.0" fill="#07101e" stroke="#1b2f50" stroke-width="1.2" opacity="0.950" />
+<line x1="186.0" y1="283.6" x2="1326.0" y2="283.6" stroke="#1f3355" stroke-width="1.0" opacity="0.950" />
+<text x="172.0" y="287.6" fill="#8ea3bf" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="end" opacity="1.000" >80.00%</text>
+<line x1="186.0" y1="263.7" x2="1326.0" y2="263.7" stroke="#1f3355" stroke-width="1.0" opacity="0.950" />
+<text x="172.0" y="267.7" fill="#8ea3bf" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="end" opacity="1.000" >85.00%</text>
+<line x1="186.0" y1="243.8" x2="1326.0" y2="243.8" stroke="#1f3355" stroke-width="1.0" opacity="0.950" />
+<text x="172.0" y="247.8" fill="#8ea3bf" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="end" opacity="1.000" >90.00%</text>
+<line x1="186.0" y1="223.9" x2="1326.0" y2="223.9" stroke="#1f3355" stroke-width="1.0" opacity="0.950" />
+<text x="172.0" y="227.9" fill="#8ea3bf" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="end" opacity="1.000" >95.00%</text>
+<line x1="186.0" y1="204.0" x2="1326.0" y2="204.0" stroke="#1f3355" stroke-width="1.0" opacity="0.950" />
+<text x="172.0" y="208.0" fill="#8ea3bf" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="400" text-anchor="end" opacity="1.000" >100.00%</text>
+<line x1="186.0" y1="204.0" x2="186.0" y2="602.0" stroke="#385074" stroke-width="1.2" opacity="0.750" />
+<line x1="186.0" y1="602.0" x2="1326.0" y2="602.0" stroke="#385074" stroke-width="1.2" opacity="0.750" />
+<text x="300.0" y="632.0" fill="#d5def0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="14.0" font-weight="800" text-anchor="middle" opacity="1.000" >HYBRID</text>
+<text x="300.0" y="650.0" fill="#7e92ad" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="middle" opacity="1.000" >rank #1</text>
+<rect x="217.9" y="217.1" width="48.7" height="384.9" rx="8.0" fill="#22d3ee" stroke="none" stroke-width="1.0" opacity="0.920" />
+<text x="242.3" y="211.1" fill="#bcd0ea" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="middle" opacity="1.000" >96.70%</text>
+<rect x="272.6" y="214.9" width="48.7" height="387.1" rx="8.0" fill="#6366f1" stroke="none" stroke-width="1.0" opacity="0.920" />
+<text x="297.0" y="208.9" fill="#bcd0ea" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="middle" opacity="1.000" >97.25%</text>
+<rect x="327.4" y="221.0" width="48.7" height="381.0" rx="8.0" fill="#f59e0b" stroke="none" stroke-width="1.0" opacity="0.920" />
+<text x="351.7" y="215.0" fill="#bcd0ea" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="middle" opacity="1.000" >95.73%</text>
+<text x="528.0" y="632.0" fill="#d5def0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="14.0" font-weight="800" text-anchor="middle" opacity="1.000" >TCN</text>
+<text x="528.0" y="650.0" fill="#7e92ad" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="middle" opacity="1.000" >rank #2</text>
+<rect x="445.9" y="217.1" width="48.7" height="384.9" rx="8.0" fill="#22d3ee" stroke="none" stroke-width="1.0" opacity="0.920" />
+<text x="470.3" y="211.1" fill="#bcd0ea" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="middle" opacity="1.000" >96.70%</text>
+<rect x="500.6" y="214.9" width="48.7" height="387.1" rx="8.0" fill="#6366f1" stroke="none" stroke-width="1.0" opacity="0.920" />
+<text x="525.0" y="208.9" fill="#bcd0ea" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="middle" opacity="1.000" >97.25%</text>
+<rect x="555.4" y="221.0" width="48.7" height="381.0" rx="8.0" fill="#f59e0b" stroke="none" stroke-width="1.0" opacity="0.920" />
+<text x="579.7" y="215.0" fill="#bcd0ea" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="middle" opacity="1.000" >95.73%</text>
+<text x="756.0" y="632.0" fill="#d5def0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="14.0" font-weight="800" text-anchor="middle" opacity="1.000" >TRANSFORMER</text>
+<text x="756.0" y="650.0" fill="#7e92ad" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="middle" opacity="1.000" >rank #3</text>
+<rect x="673.9" y="219.3" width="48.7" height="382.7" rx="8.0" fill="#22d3ee" stroke="none" stroke-width="1.0" opacity="0.920" />
+<text x="698.3" y="213.3" fill="#bcd0ea" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="middle" opacity="1.000" >96.15%</text>
+<rect x="728.6" y="217.1" width="48.7" height="384.9" rx="8.0" fill="#6366f1" stroke="none" stroke-width="1.0" opacity="0.920" />
+<text x="753.0" y="211.1" fill="#bcd0ea" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="middle" opacity="1.000" >96.70%</text>
+<rect x="783.4" y="223.2" width="48.7" height="378.8" rx="8.0" fill="#f59e0b" stroke="none" stroke-width="1.0" opacity="0.920" />
+<text x="807.7" y="217.2" fill="#bcd0ea" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="middle" opacity="1.000" >95.16%</text>
+<text x="984.0" y="632.0" fill="#d5def0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="14.0" font-weight="800" text-anchor="middle" opacity="1.000" >FULL</text>
+<text x="984.0" y="650.0" fill="#7e92ad" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="middle" opacity="1.000" >rank #4</text>
+<rect x="901.9" y="221.5" width="48.7" height="380.5" rx="8.0" fill="#22d3ee" stroke="none" stroke-width="1.0" opacity="0.920" />
+<text x="926.3" y="215.5" fill="#bcd0ea" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="middle" opacity="1.000" >95.60%</text>
+<rect x="956.6" y="217.1" width="48.7" height="384.9" rx="8.0" fill="#6366f1" stroke="none" stroke-width="1.0" opacity="0.920" />
+<text x="981.0" y="211.1" fill="#bcd0ea" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="middle" opacity="1.000" >96.70%</text>
+<rect x="1011.4" y="224.0" width="48.7" height="378.0" rx="8.0" fill="#f59e0b" stroke="none" stroke-width="1.0" opacity="0.920" />
+<text x="1035.7" y="218.0" fill="#bcd0ea" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="middle" opacity="1.000" >94.98%</text>
+<text x="1212.0" y="632.0" fill="#d5def0" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="14.0" font-weight="800" text-anchor="middle" opacity="1.000" >LITE</text>
+<text x="1212.0" y="650.0" fill="#7e92ad" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="middle" opacity="1.000" >rank #5</text>
+<rect x="1129.9" y="225.9" width="48.7" height="376.1" rx="8.0" fill="#22d3ee" stroke="none" stroke-width="1.0" opacity="0.920" />
+<text x="1154.3" y="219.9" fill="#bcd0ea" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="middle" opacity="1.000" >94.51%</text>
+<rect x="1184.6" y="214.9" width="48.7" height="387.1" rx="8.0" fill="#6366f1" stroke="none" stroke-width="1.0" opacity="0.920" />
+<text x="1209.0" y="208.9" fill="#bcd0ea" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="middle" opacity="1.000" >97.25%</text>
+<rect x="1239.4" y="230.5" width="48.7" height="371.5" rx="8.0" fill="#f59e0b" stroke="none" stroke-width="1.0" opacity="0.920" />
+<text x="1263.7" y="224.5" fill="#bcd0ea" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="11.0" font-weight="400" text-anchor="middle" opacity="1.000" >93.34%</text>
+<rect x="110.0" y="704.0" width="16.0" height="16.0" rx="5.0" fill="#22d3ee" stroke="none" stroke-width="1.0" opacity="1.000" />
+<text x="134.0" y="717.0" fill="#dbe6f4" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="700" text-anchor="start" opacity="1.000" >Best val acc</text>
+<rect x="290.0" y="704.0" width="16.0" height="16.0" rx="5.0" fill="#6366f1" stroke="none" stroke-width="1.0" opacity="1.000" />
+<text x="314.0" y="717.0" fill="#dbe6f4" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="700" text-anchor="start" opacity="1.000" >Top-3</text>
+<rect x="470.0" y="704.0" width="16.0" height="16.0" rx="5.0" fill="#f59e0b" stroke="none" stroke-width="1.0" opacity="1.000" />
+<text x="494.0" y="717.0" fill="#dbe6f4" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="12.0" font-weight="700" text-anchor="start" opacity="1.000" >Macro F1</text>
+<text x="96.0" y="780.0" fill="#8fa6c7" font-family="Inter, Segoe UI, system-ui, sans-serif" font-size="13.0" font-weight="400" text-anchor="start" opacity="1.000" >Best model: hybrid  |  Validation accuracy: 96.70%  |  Top-3: 97.25%  |  Macro-F1: 95.73%</text>
+</svg>

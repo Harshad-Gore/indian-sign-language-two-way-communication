@@ -1,0 +1,28 @@
+﻿# Training-only dependencies for ISL sign-recognition experiments.
+# Install from the repository root with:
+#   pip install -r training-rq.txt
+#
+# PyTorch will use CUDA automatically if your installed wheel has CUDA support.
+# For a specific NVIDIA CUDA wheel, install torch from the official PyTorch
+# selector first, then run this file for the remaining dependencies.
+
+numpy>=1.26,<2.0
+opencv-python>=4.8,<5.0
+mediapipe>=0.10.14,<0.11
+protobuf>=4.25,<5
+
+# Deep learning
+torch>=2.1,<2.8
+torchvision>=0.16,<0.23
+torchaudio>=2.1,<2.8
+
+# Training metrics, analysis, and plots
+scikit-learn>=1.3,<1.6
+pandas>=2.1,<2.3
+matplotlib>=3.8,<3.11
+seaborn>=0.13,<0.14
+tqdm>=4.66,<5
+
+# Testing and environment helpers
+pytest>=8,<10
+python-dotenv>=1.0,<2

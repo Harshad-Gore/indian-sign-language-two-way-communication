@@ -1,0 +1,60 @@
+# Environment files
+.env
+.env.*
+!.env.example
+.venv/
+
+# Python caches and build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Node / frontend build outputs
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+
+# Generated reports and local artifacts
+artifacts/
+*.log
+
+# Large frontend binaries and bundled model assets that should not be pushed
+frontend/public/models/*.glb
+frontend/public/models/**/*.glb
+frontend/public/jas/loc2021/app/SiGML-Player.AppImage
+frontend/public/jas/loc2021/app/SiGML-Player.dmg
+frontend/public/jas/loc2021/app/SiGML-Player.exe
+
+# Local datasets and generated media bundles
+backend/nltk_data/
+isl/data/
+isl/extracted_data/
+isl/motion_clips/
+
+# Large training checkpoints and temporary model binaries
+isl/models/*.pt
+isl/models/*.pth
+isl/models/*.onnx
+isl/models/*.safetensors
+isl/models/**/*.pt
+isl/models/**/*.pth
+isl/models/**/*.onnx
+isl/models/**/*.safetensors
+isl/models/benchmark/*.pt
+isl/models/benchmark/**/*.pt
+isl/models/best_model.pt
+isl/models/benchmark/best_model.pt
+isl/models/smoke_benchmark/
+
+# OS / editor clutter
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

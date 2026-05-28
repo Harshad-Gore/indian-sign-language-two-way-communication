@@ -1,0 +1,81 @@
+[
+  "mixamorig6_Hips",
+  "mixamorig6_Spine",
+  "mixamorig6_Spine1",
+  "mixamorig6_Spine2",
+  "mixamorig6_Neck",
+  "mixamorig6_Head",
+  "mixamorig6_HeadTop_End",
+
+  "mixamorig6_LeftShoulder",
+  "mixamorig6_LeftArm",
+  "mixamorig6_LeftForeArm",
+  "mixamorig6_LeftHand",
+
+  "mixamorig6_LeftHandThumb1",
+  "mixamorig6_LeftHandThumb2",
+  "mixamorig6_LeftHandThumb3",
+  "mixamorig6_LeftHandThumb4",
+
+  "mixamorig6_LeftHandIndex1",
+  "mixamorig6_LeftHandIndex2",
+  "mixamorig6_LeftHandIndex3",
+  "mixamorig6_LeftHandIndex4",
+
+  "mixamorig6_LeftHandMiddle1",
+  "mixamorig6_LeftHandMiddle2",
+  "mixamorig6_LeftHandMiddle3",
+  "mixamorig6_LeftHandMiddle4",
+
+  "mixamorig6_LeftHandRing1",
+  "mixamorig6_LeftHandRing2",
+  "mixamorig6_LeftHandRing3",
+  "mixamorig6_LeftHandRing4",
+
+  "mixamorig6_LeftHandPinky1",
+  "mixamorig6_LeftHandPinky2",
+  "mixamorig6_LeftHandPinky3",
+  "mixamorig6_LeftHandPinky4",
+
+  "mixamorig6_RightShoulder",
+  "mixamorig6_RightArm",
+  "mixamorig6_RightForeArm",
+  "mixamorig6_RightHand",
+
+  "mixamorig6_RightHandThumb1",
+  "mixamorig6_RightHandThumb2",
+  "mixamorig6_RightHandThumb3",
+  "mixamorig6_RightHandThumb4",
+
+  "mixamorig6_RightHandIndex1",
+  "mixamorig6_RightHandIndex2",
+  "mixamorig6_RightHandIndex3",
+  "mixamorig6_RightHandIndex4",
+
+  "mixamorig6_RightHandMiddle1",
+  "mixamorig6_RightHandMiddle2",
+  "mixamorig6_RightHandMiddle3",
+  "mixamorig6_RightHandMiddle4",
+
+  "mixamorig6_RightHandRing1",
+  "mixamorig6_RightHandRing2",
+  "mixamorig6_RightHandRing3",
+  "mixamorig6_RightHandRing4",
+
+  "mixamorig6_RightHandPinky1",
+  "mixamorig6_RightHandPinky2",
+  "mixamorig6_RightHandPinky3",
+  "mixamorig6_RightHandPinky4",
+
+  "mixamorig6_LeftUpLeg",
+  "mixamorig6_LeftLeg",
+  "mixamorig6_LeftFoot",
+  "mixamorig6_LeftToeBase",
+  "mixamorig6_LeftToe_End",
+
+  "mixamorig6_RightUpLeg",
+  "mixamorig6_RightLeg",
+  "mixamorig6_RightFoot",
+  "mixamorig6_RightToeBase",
+  "mixamorig6_RightToe_End"
+]
