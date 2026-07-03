@@ -1,12 +1,11 @@
 import React from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
+import { motion } from 'framer-motion'
 import { useTranslatorStore } from '@/stores/translatorStore'
 
 export const RightPanel: React.FC = () => {
   const {
     originalText, simplifiedText, glossSequence,
     nlpBreakdown, animation, confidence, processingTimeMs,
-    processingStage,
   } = useTranslatorStore()
 
   const posColors: Record<string, string> = {

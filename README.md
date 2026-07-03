@@ -19,6 +19,19 @@ People who use Indian Sign Language often face communication barriers in educati
 
 The current text-to-avatar path uses a rule-based/NLP translation layer, a SiGML sign asset library, and the CWASA avatar runtime. The sign-to-text path uses MediaPipe landmark extraction in the browser and a trained PyTorch sequence model on the backend. The system is built as a React + TypeScript frontend with a FastAPI backend.
 
+## Engineering Evidence
+
+[![Flagship verification](https://github.com/Harshad-Gore/Harshad-Gore/actions/workflows/verify-flagships.yml/badge.svg)](https://github.com/Harshad-Gore/Harshad-Gore/actions/workflows/verify-flagships.yml)
+
+| Gate | Current baseline |
+|---|---:|
+| Recognition suite | 34 passed, 12 asset-dependent tests skipped |
+| Frontend lint | Passing with zero warnings |
+| TypeScript production build | Passing |
+| Model benchmark | 96.70% validation accuracy, 95.73% macro F1 across 71 classes |
+
+The benchmark is prototype validation evidence, not a claim of unseen-signer or production accuracy. See the [architecture and evidence case study](https://github.com/Harshad-Gore/Harshad-Gore/blob/main/docs/indian-sign-language.md) for privacy boundaries, evaluation limits, and open engineering work.
+
 ---
 
 ## Project Objectives

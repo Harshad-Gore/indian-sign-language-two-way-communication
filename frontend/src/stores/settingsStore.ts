@@ -1,9 +1,11 @@
 import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
 
+export type WhisperModel = 'tiny' | 'base' | 'small' | 'medium' | 'large'
+
 interface SettingsState {
   theme: 'dark' | 'light'
-  whisperModel: 'tiny' | 'base' | 'small' | 'medium' | 'large'
+  whisperModel: WhisperModel
   animationSpeed: number
   showSkeleton: boolean
   showLandmarks: boolean
@@ -51,7 +53,7 @@ const defaults = {
 
 export const useSettingsStore = create<SettingsState>()(
   persist(
-    (set, get) => ({
+    (set) => ({
       ...defaults,
       setTheme:          (t) => set({ theme: t }),
       setWhisperModel:   (m) => set({ whisperModel: m }),

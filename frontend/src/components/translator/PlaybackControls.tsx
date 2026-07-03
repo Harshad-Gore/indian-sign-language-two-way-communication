@@ -1,7 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { useTranslatorStore } from '@/stores/translatorStore'
-import { useSettingsStore } from '@/stores/settingsStore'
 import { Play, Pause, RotateCcw } from 'lucide-react'
 
 export const PlaybackControls: React.FC = () => {
@@ -25,12 +24,7 @@ export const PlaybackControls: React.FC = () => {
         style={{
           width: '100%', height: '3px',
           background: 'rgba(99,102,241,0.2)',
-          borderRadius: '2px', cursor: 'pointer',
-        }}
-        onClick={e => {
-          const rect = e.currentTarget.getBoundingClientRect()
-          const ratio = (e.clientX - rect.left) / rect.width
-          // Seek not fully implemented, visual only
+          borderRadius: '2px',
         }}
       >
         <motion.div

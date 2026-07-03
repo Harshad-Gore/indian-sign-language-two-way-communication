@@ -167,8 +167,8 @@ export const SignRecognitionPage: React.FC = () => {
       // Reset recognizer on backend
       await resetRecognizer().catch(() => {})
 
-    } catch (err: any) {
-      setCameraError(err.message || 'Camera access denied')
+    } catch (err: unknown) {
+      setCameraError(err instanceof Error ? err.message : 'Camera access denied')
       setCameraActive(false)
     }
   }, [])

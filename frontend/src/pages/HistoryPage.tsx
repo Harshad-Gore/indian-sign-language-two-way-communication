@@ -13,7 +13,17 @@ export const HistoryPage: React.FC = () => {
     fetchHistory(50).then(data => { setItems(data); setLoading(false) }).catch(() => setLoading(false))
   }
 
-  useEffect(() => { load() }, [])
+  useEffect(() => {
+    let active = true
+    fetchHistory(50)
+      .then(data => {
+        if (active) setItems(data)
+      })
+      .finally(() => {
+        if (active) setLoading(false)
+      })
+    return () => { active = false }
+  }, [])
 
   const handleClear = async () => {
     await clearHistory()

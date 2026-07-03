@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import { motion, AnimatePresence } from 'framer-motion'
+import { motion } from 'framer-motion'
 import { fetchSystemStatus } from '@/api/translateApi'
 import { useSettingsStore } from '@/stores/settingsStore'
 import type { SystemStatus } from '@/types'

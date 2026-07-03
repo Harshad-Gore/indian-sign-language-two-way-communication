@@ -66,7 +66,7 @@ const initialState = {
 
 export const useTranslatorStore = create<TranslatorState>()(
   devtools(
-    (set, get) => ({
+    (set) => ({
       ...initialState,
 
       setInputText: (text) => set({ inputText: text }),

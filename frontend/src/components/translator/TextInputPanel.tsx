@@ -7,6 +7,38 @@ interface TextInputPanelProps {
   onTranslate: (text: string) => void
 }
 
+interface SpeechRecognitionAlternativeLike {
+  transcript: string
+}
+
+interface SpeechRecognitionResultLike {
+  0: SpeechRecognitionAlternativeLike
+}
+
+interface SpeechRecognitionEventLike {
+  results: ArrayLike<SpeechRecognitionResultLike>
+}
+
+interface SpeechRecognitionLike {
+  continuous: boolean
+  interimResults: boolean
+  lang: string
+  onresult: ((event: SpeechRecognitionEventLike) => void) | null
+  onend: (() => void) | null
+  onerror: (() => void) | null
+  start: () => void
+  stop: () => void
+}
+
+interface SpeechRecognitionConstructorLike {
+  new (): SpeechRecognitionLike
+}
+
+interface SpeechRecognitionWindow extends Window {
+  SpeechRecognition?: SpeechRecognitionConstructorLike
+  webkitSpeechRecognition?: SpeechRecognitionConstructorLike
+}
+
 const EXAMPLE_PHRASES = [
   'Hello, how are you?',
   'What is your name?',
@@ -26,7 +58,7 @@ const LANGUAGES = [
 export const TextInputPanel: React.FC<TextInputPanelProps> = ({ onTranslate }) => {
   const { inputText, setInputText, isProcessing, islGrammar, setIslGrammar, language, setLanguage } = useTranslatorStore()
   const [isRecording, setIsRecording] = useState(false)
-  const recognitionRef = useRef<any>(null)
+  const recognitionRef = useRef<SpeechRecognitionLike | null>(null)
   const textareaRef = useRef<HTMLTextAreaElement>(null)
 
   const handleSubmit = () => {
@@ -39,7 +71,8 @@ export const TextInputPanel: React.FC<TextInputPanelProps> = ({ onTranslate }) =
 
   // Web Speech API
   const toggleRecording = useCallback(() => {
-    const SpeechRecognition = (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition
+    const speechWindow = window as SpeechRecognitionWindow
+    const SpeechRecognition = speechWindow.SpeechRecognition || speechWindow.webkitSpeechRecognition
     if (!SpeechRecognition) {
       alert('Speech recognition not supported in this browser.')
       return
@@ -57,9 +90,9 @@ export const TextInputPanel: React.FC<TextInputPanelProps> = ({ onTranslate }) =
     recog.lang = language === 'hi' ? 'hi-IN' : 'en-US'
     recognitionRef.current = recog
 
-    recog.onresult = (e: any) => {
+    recog.onresult = (e: SpeechRecognitionEventLike) => {
       const transcript = Array.from(e.results)
-        .map((r: any) => r[0].transcript)
+        .map(result => result[0].transcript)
         .join('')
       setInputText(transcript)
     }
