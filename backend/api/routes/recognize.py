@@ -8,7 +8,7 @@ import json
 from pathlib import Path
 from typing import Optional, List
 from fastapi import APIRouter, HTTPException
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict
 from loguru import logger
 import numpy as np
 from config import settings
@@ -23,7 +23,8 @@ router = APIRouter(prefix="/api/recognize", tags=["Recognition"])
 # ── Add ISL module to path ────────────────────────────────────────────────────
 ISL_ROOT = Path(__file__).parent.parent.parent.parent / "isl"
 if str(ISL_ROOT) not in sys.path:
-    sys.path.insert(0, str(ISL_ROOT))
+    # Keep backend path precedence so uvicorn "main:app" still resolves backend/main.py.
+    sys.path.append(str(ISL_ROOT))
 
 # ── Lazy-loaded recognizer ────────────────────────────────────────────────────
 _recognizer = None
@@ -74,6 +75,8 @@ class RecognitionResult(BaseModel):
 
 
 class RecognizerStatus(BaseModel):
+    model_config = ConfigDict(protected_namespaces=())
+
     loaded: bool
     num_classes: int = 0
     class_names: List[str] = []
